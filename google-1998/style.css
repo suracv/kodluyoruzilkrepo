@@ -1,0 +1,46 @@
+
+.logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+  width: 300px;
+  height: 150px;
+}
+
+
+.search {
+    background-color: #eeeeee;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.search input{
+    width: 60%;
+}
+.search .buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}   
+
+.footer .footer__card {
+    background-color:#7EE5DA;
+}
+.footer .footer__card ul{
+    list-style: none;
+    text-align: center;
+}
+.footer__bottom p{
+text-align: center;
+font-size: 16px;
+}
+p{
+    margin: 0;
+}
