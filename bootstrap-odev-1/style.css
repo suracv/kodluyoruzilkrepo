@@ -1,0 +1,10 @@
+body{
+  background-color: #E9ECEF;
+}
+.container-fluid{
+  background-color: darkslategray;
+}
+
+.card{
+  margin: 10px auto;
+}
